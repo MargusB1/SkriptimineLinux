@@ -1,0 +1,5 @@
+#Skript teeb kasutaja paroolita
+echo "Kirjuta soovitud kasutajanimi"
+read kasutajanimi
+useradd $kasutajanimi
+echo "Kasutaja on tehtud!"
