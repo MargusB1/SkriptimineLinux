@@ -1,0 +1,4 @@
+#kasutaja loomine läbi kasutajate faili
+echo "Kasutajate loomine failiga kasutaja_nimed"
+while read -r line; do ./kasutaja_lisamine.sh; done < kasutaja_nimed
+
