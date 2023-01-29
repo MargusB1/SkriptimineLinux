@@ -11,4 +11,4 @@ if [ $MYSQL -eq 0 ]; then
 	echo "MySQL on paigaldatud"
 elif [ $MYSQL -eq 1 ]; then
 echo "MySQL on juba paigaldatud"
-fi
+i
